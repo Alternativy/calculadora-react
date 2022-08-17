@@ -9,9 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
     <>
         <Button />
-        <Button2 n={1} />
-        <Button2 n={2} />
-        <h1>tucson calculator</h1>
+        {/* <h1>tucson calculator</h1>
         <input type="number/text" value={number}></input>
         <button>1</button>
         <button>2</button>
@@ -27,6 +25,6 @@ root.render(
         <button>+</button>
         <button>*</button>
         <button>-</button>
-        <button>/</button>
+        <button>/</button> */}
     </>
 );
