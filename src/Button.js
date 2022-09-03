@@ -5,10 +5,11 @@ export const Button = () => {
     const [operator, setOperator] = useState("+")
     let resolve = () => count.split("+")
     let substract = () => count.split("-")
-    let divide = () => count.split("-")
-    let multiply = () => count.split("-")
+    let divide = () => count.split("/")
+    let multiply = () => count.split("*")
+    let op = () => count
     let resolve2 = (n1,n2) => {
-        switch (operator) {
+        switch (op) {
             case "+":
                 return n1+n2;
             case "-":
